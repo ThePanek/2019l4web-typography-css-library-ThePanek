@@ -1,3 +1,5 @@
 # Typography CSS
 
-__Tento set typografie využívá dva soubory .css, které je třeba implementovat__
+## Implementace
+Tento set typografie využívá dva soubory .css, které je třeba implementovat
+
