@@ -73,3 +73,11 @@ Ovšem celý jeden článek musí být jeden `<article>` element.
     <li>Lorem</li>
 </ol>
 ```
+### Footer
+```html
+<footer>
+    <p>
+        Created by <a href="">Jan Pánek</a>
+    </p>
+</footer>
+```
