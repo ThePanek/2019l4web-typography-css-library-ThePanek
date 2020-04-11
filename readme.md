@@ -1,7 +1,7 @@
 # Typography CSS
 Tento styl je vytvořen primárně pro design článku na blogu.
-## Implementace
-Tento set typografie využívá dva soubory .css, které je třeba implementovat do hlavičky html.
+## Implementation
+This typography set uses two .css files that need to be implemented in the HTML header.
 ```html
 <head>
     <meta charset="UTF-8" />
@@ -14,10 +14,10 @@ Tento set typografie využívá dva soubory .css, které je třeba implementovat
     <link rel="stylesheet" href="typography.css" />
 </head>
 ```
-## Použití
-Tento způsob stylizace článků na bloku neužívá žádné klásy. Není tudíž třeba do html přidávat mnoho těchto prvků. 
+## Usage
+This way of styling blog articles does not use any clues. There is, therefore, no need to add many of these elements to HTML.
 
-Ovšem celý jeden článek musí být jeden `<article>` element.
+However, all one article must be one `<article>` element.
 ```html
 <article>
     <h2>Heading</h2>
@@ -30,7 +30,7 @@ Ovšem celý jeden článek musí být jeden `<article>` element.
     </p>
 </article>
 ```
-## Komponenty
+## Components
 ### Header
 ```html
 <header>
