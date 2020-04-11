@@ -1,0 +1,125 @@
+@import url(./Helvetica-Font/Helvetica.ttf);
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+* {
+  font-family: "Helvetica", "Roboto";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+article {
+  width: 40%;
+}
+
+article header h1 {
+  margin: 0;
+  margin-top: .8em;
+}
+
+article header p {
+  margin-bottom: 1.2em;
+  font-size: .9em;
+  margin-left: 1em;
+}
+
+article a {
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: rgba(0, 0, 0, 1);
+  transition: all ease-in-out .2s;
+}
+
+article a:hover {
+  background-color: white;
+  color: black;
+}
+
+article h2 {
+  margin-top: .8em;
+  margin-bottom: .5em;
+}
+
+article p {
+  font-size: .9em;
+  line-height: 1.1em;
+  margin-bottom: .9em;
+}
+
+article ul {
+  margin-left: 1em;
+  font-size: .9em;
+}
+
+article figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: .8em;
+  margin-bottom: .8em;
+}
+
+article figure img {
+  max-width: 70%;
+}
+
+article figure figcaption {
+  font-size: .7em;
+}
+
+article footer {
+  margin-top: .8em;
+  margin-bottom: .5em;
+  font-size: .9em;
+  width: 100%;
+  height: 2em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  margin-left: 1em;
+}
+
+blockquote q {
+  font-style: italic;
+}
+
+blockquote q::after {
+  content: "“";
+}
+
+blockquote q::before {
+  content: "„";
+}
+
+blockquote div {
+  display: inline;
+}
+
+@media only screen and (max-width: 900px) {
+  article {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  article {
+    width: 95%;
+  }
+
+  article figure img {
+    max-width: 85%;
+  }
+}
