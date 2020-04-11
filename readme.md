@@ -77,7 +77,7 @@ Ovšem celý jeden článek musí být jeden `<article>` element.
 ```html
 <footer>
     <p>
-        Created by <a href="">Jan Pánek</a>
+        Created by<a href=""> author's name</a>
     </p>
 </footer>
 ```
