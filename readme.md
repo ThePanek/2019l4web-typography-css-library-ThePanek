@@ -18,3 +18,15 @@ Tento set typografie využívá dva soubory .css, které je třeba implementovat
 Tento způsob stylizace článků na bloku neužívá žádné klásy. Není tudíž třeba do html přidávat mnoho těchto prvků. 
 
 Ovšem celý jeden článek musí být jeden `<article>` element.
+```html
+<article>
+  <h2>Heading</h2>
+  <p>
+    Lorem ipsum
+  </p>
+  <h2>Heading</h2>
+  <p>
+    Lorem ipsum
+  </p>
+</article>
+```
