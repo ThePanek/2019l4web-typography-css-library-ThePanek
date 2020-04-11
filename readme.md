@@ -1,7 +1,7 @@
 # Typography CSS
-
+Tento styl je vytvořen primárně pro design článku na blogu.
 ## Implementace
-Tento set typografie využívá dva soubory .css, které je třeba implementovat do hlavičky .html.
+Tento set typografie využívá dva soubory .css, které je třeba implementovat do hlavičky html.
 ```html
 <head>
   <meta charset="UTF-8" />
@@ -14,4 +14,6 @@ Tento set typografie využívá dva soubory .css, které je třeba implementovat
   <link rel="stylesheet" href="typography.css" />
 </head>
 ```
+## Použití
+Pro použití tohoto typografického řešení je přeba mít v html jednolivé články na bloku vytvořené jako jednotlivých `<article>` elementů.
 
