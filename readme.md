@@ -81,3 +81,4 @@ However, all one article must be one `<article>` element.
     </p>
 </footer>
 ```
+![Preview](/preview/web-print.png)
