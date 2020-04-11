@@ -21,9 +21,13 @@ Ovšem celý jeden článek musí být jeden `<article>` element.
 ```html
 <article>
     <h2>Heading</h2>
-    <p>Lorem ipsum</p>
+    <p>
+        Lorem ipsum
+    </p>
     <h2>Heading</h2>
-    <p>Lorem ipsum</p>
+    <p>
+        Lorem ipsum
+    </p>
 </article>
 ```
 ## Komponenty
@@ -31,7 +35,9 @@ Ovšem celý jeden článek musí být jeden `<article>` element.
 ```html
 <header>
     <h1>Main heading</h1>
-    <p>by<a href=""> author's name</a></p>
+    <p>
+        by<a href=""> author's name</a>
+    </p>
 </header>
 ```
 ### Image with caption
@@ -46,6 +52,8 @@ Ovšem celý jeden článek musí být jeden `<article>` element.
 ### Blockquote
 ```html
 <blockquote cite="">
-      <p><q>quote</q> author's name</p>
+    <p>
+        <q>quote</q> author's name
+    </p>
 </blockquote>
 ```
