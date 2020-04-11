@@ -1,5 +1,5 @@
 # Typography CSS
-Tento styl je vytvořen primárně pro design článku na blogu.
+This style is created primarily for blog article design.
 ## Implementation
 This typography set uses two .css files that need to be implemented in the HTML header.
 ```html
