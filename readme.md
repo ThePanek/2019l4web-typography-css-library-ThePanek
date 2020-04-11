@@ -59,13 +59,14 @@ Ovšem celý jeden článek musí být jeden `<article>` element.
 ```
 ### List
 ```html
-<!-- Unorderec -->
+<!-- Unordered -->
 <ul>
     <li>Lorem</li>
     <li>Lorem</li>
     <li>Lorem</li>
 </ul>
-<!-- Orderec -->
+
+<!-- Ordered -->
 <ol>
     <li>Lorem</li>
     <li>Lorem</li>
