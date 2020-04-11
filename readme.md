@@ -57,14 +57,15 @@ Ovšem celý jeden článek musí být jeden `<article>` element.
     </p>
 </blockquote>
 ```
-### (Un)ordered list
+### List
 ```html
+<!-- Unorderec -->
 <ul>
     <li>Lorem</li>
     <li>Lorem</li>
     <li>Lorem</li>
 </ul>
-or
+<!-- Orderec -->
 <ol>
     <li>Lorem</li>
     <li>Lorem</li>
