@@ -15,5 +15,5 @@ Tento set typografie využívá dva soubory .css, které je třeba implementovat
 </head>
 ```
 ## Použití
-Pro použití tohoto typografického řešení je přeba mít v html jednolivé články na bloku vytvořené jako jednotlivých `<article>` elementů.
+Pro použití tohoto typografického řešení je přeba mít v html jednolivé články na bloku vytvořené jako jednotlivé `<article>` elementy. V tomto elementu se poté nachází další elementy, které dohromady tvoří jeden článek.
 
